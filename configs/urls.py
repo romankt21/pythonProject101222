@@ -15,12 +15,12 @@ Including another URLconf
 """
 from django.urls import path
 # from users.views import UserView, UserTestView
-from users.views import UserListCreateView, UserRetrieveUpdateDestroyView
+# from users.views import UserListCreateView, UserRetrieveUpdateDestroyView
 
 urlpatterns = [
     # path('users', UserView.as_view()),
     # path('users/<int:pk>', UserTestView.as_view())
-    path('users', UserListCreateView.as_view()),
-    path('users/<int:pk>', UserRetrieveUpdateDestroyView.as_view())
+    # path('users', UserListCreateView.as_view()),
+    # path('users/<int:pk>', UserRetrieveUpdateDestroyView.as_view())
 
 ]
